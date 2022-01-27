@@ -1,0 +1,5 @@
+Just run
+
+lxc-far2l-portable.sh
+
+on Ubuntu 18.04 (20.04 should do the job also) to build portable far2l standalone executable far2l_portable.run
