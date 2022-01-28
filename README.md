@@ -19,7 +19,7 @@ sudo dpkg -i ПАКЕТ_ДЛЯ_ВАШЕГО_ДИСТРИБУТИВА.deb
 
 Что ещё тут есть интересного?
 
-misc — всякие вспомогательные скрипты, большей частью устаревшие, и мелкий фикс для colorer
+misc — всякие вспомогательные скрипты, большей частью устаревшие
 
 portable — tty-версия far2l, собранная со всеми библиотеками в один исполняемый файл, пригодится на shared хостингах
 
@@ -46,7 +46,7 @@ https://launchpad.net/~far2l-team/+archive/ubuntu/ppa may have more recent build
 
 What else interesting is there?
 
-misc - all sorts of auxiliary scripts, mostly outdated, and a minor fix for colorer
+misc - all sorts of auxiliary scripts, mostly outdated
 
 portable - the tty version of far2l, packaged with all the libraries into one executable file, useful on shared hosting
 
