@@ -19,8 +19,6 @@ sudo dpkg -i ПАКЕТ_ДЛЯ_ВАШЕГО_ДИСТРИБУТИВА.deb
 
 Что ещё тут есть интересного?
 
-cygwin — предсобранные бинарные сборки far2l для cygwin с инструкцией, как установить
-
 misc — всякие вспомогательные скрипты, большей частью устаревшие, и мелкий фикс для colorer
 
 portable — tty-версия far2l, собранная со всеми библиотеками в один исполняемый файл, пригодится на shared хостингах
@@ -47,8 +45,6 @@ sudo dpkg -i PACKAGE_FOR_YOUR_DISTRO.deb
 https://launchpad.net/~far2l-team/+archive/ubuntu/ppa may have more recent builds as well as builds for other distros.
 
 What else interesting is there?
-
-cygwin - prebuilt binaries of far2l for cygwin with instructions (russian only) on how to install
 
 misc - all sorts of auxiliary scripts, mostly outdated, and a minor fix for colorer
 
