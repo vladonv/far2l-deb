@@ -9,12 +9,6 @@ rm -rf far2l
 mkdir far2l
 cd far2l
 git clone https://github.com/elfmz/far2l
-#fix for Alt+russian_chars_like_yu in wx 3.0.5+ (3.0.4+ on Ununtu 20.04/Mint 20)
-if cat /etc/lsb-release | grep "Ubuntu 20.04\|Mint 20" > /dev/null; then
-    grep -rl "wxCHECK_VERSION(3, 1, 3)" . | xargs sed -i 's/wxCHECK_VERSION(3, 1, 3)/wxCHECK_VERSION(3, 0, 4)/g'
-else
-    grep -rl "wxCHECK_VERSION(3, 1, 3)" . | xargs sed -i 's/wxCHECK_VERSION(3, 1, 3)/wxCHECK_VERSION(3, 0, 5)/g'
-fi
 ##### step 2 (add "cd far2l" below if running step 2 as separate script)
 mkdir build
 cd build
