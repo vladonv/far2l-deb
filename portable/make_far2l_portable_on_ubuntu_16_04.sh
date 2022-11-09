@@ -11,8 +11,10 @@ mkdir build
 cd build
 sudo apt-get install -y software-properties-common
 sudo add-apt-repository -y ppa:george-edison55/cmake-3.x
+sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test
 sudo apt-get update
-sudo apt-get install -y cmake
+sudo apt-get install -y cmake gcc-6 g++-6
+sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-6 60 --slave /usr/bin/g++ g++ /usr/bin/g++-6
 cmake -DUSEWX=no -DLEGACY=no -DCMAKE_BUILD_TYPE=Release ..
 make -j$(nproc --all)
 cd install
