@@ -5,7 +5,7 @@ sudo lxc-stop -n far2l
 sudo lxc-destroy -n far2l
 sudo rm -rf ~/far2l_portable.run
 # here we go
-sudo lxc-create -t download -n far2l -- --keyserver hkp://p80.pool.sks-keyservers.net:80 -d ubuntu -r trusty -a amd64
+sudo lxc-create -t download -n far2l -- --keyserver hkp://p80.pool.sks-keyservers.net:80 --force-cache -d ubuntu -r trusty -a amd64
 sudo lxc-start -n far2l -d
 sleep 2
 sudo lxc-attach -n far2l -- sudo apt install -y wget
