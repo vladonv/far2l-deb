@@ -21,7 +21,7 @@ sudo dpkg -i ПАКЕТ_ДЛЯ_ВАШЕГО_ДИСТРИБУТИВА.deb
 
 misc — всякие вспомогательные скрипты, большей частью устаревшие
 
-portable — tty-версия far2l, собранная со всеми библиотеками в один исполняемый файл, пригодится на shared хостингах
+portable — tty-версия far2l, собранная со всеми библиотеками в один исполняемый файл, пригодится на shared хостингах. Есть ограничение: отсутствует поддержка протокола SMB в NetRocks, всё остальное — как в сборке far2l по умолчанию.
 
 themes — темы оформления интерфейса far2l
 
@@ -48,7 +48,7 @@ What else interesting is there?
 
 misc - all sorts of auxiliary scripts, mostly outdated
 
-portable - the tty version of far2l, packaged with all the libraries into one executable file, useful on shared hosting
+portable - the tty version of far2l, packaged with all the libraries into one executable file, useful on shared hostings. There is a limitation: no support for SMB protocol in NetRocks, everything else is the same as in the default far2l build.
 
 themes - themes for far2l UI
 
