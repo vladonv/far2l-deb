@@ -27,6 +27,8 @@ themes — темы оформления интерфейса far2l
 
 colorer-smarty — улучшение поддержки Smarty в плагине Colorer
 
+NB! Отличие моих сборок (как .deb, так и portable) — в том, что опции «одиночное нажатие ESC» и «поддержка OSC 52» включены по умолчанию.
+
 ---
 
 .deb package of [far2l](https://github.com/elfmz/far2l) ([Far Manager 2](http://www.farmanager.com/index.php?l=en) linux port) for Ubuntu LTS (works on Mint also).
@@ -53,3 +55,5 @@ portable - the tty version of far2l, packaged with all the libraries into one ex
 themes - themes for far2l UI
 
 colorer-smarty — improved Smarty support for Colorer plugin
+
+NB! The difference between my builds (both .deb and portable) is that the "single press ESC" and "OSC 52 support" options are enabled by default.
