@@ -4,6 +4,7 @@ cd ~
 rm -rf far2l
 mkdir far2l
 cd far2l
+apt-get update
 apt-get install -y libspdlog-dev patchelf wget gawk m4 libx11-dev libxi-dev libxerces-c-dev libuchardet-dev libssh-dev libssl-dev libnfs-dev libneon27-dev libarchive-dev libpcre3-dev cmake g++ git
 git clone https://github.com/elfmz/far2l
 cd far2l
@@ -11,13 +12,6 @@ wget https://raw.githubusercontent.com/unxed/far2l-deb/master/portable/tty_tweak
 git apply tty_tweaks.patch
 mkdir build
 cd build
-sudo apt-get install -y software-properties-common
-sudo add-apt-repository -y ppa:george-edison55/cmake-3.x
-#sudo add-apt-repository -y ppa:ubuntu-toolchain-r/test
-sudo apt-get update
-sudo apt-get install -y cmake
-#sudo apt-get install -y gcc-6 g++-6
-#sudo update-alternatives --install /usr/bin/gcc gcc /usr/bin/gcc-6 60 --slave /usr/bin/g++ g++ /usr/bin/g++-6
 cmake -DUSEWX=no -DLEGACY=no -DCMAKE_BUILD_TYPE=Release ..
 make -j$(nproc --all)
 cd install
