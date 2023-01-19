@@ -2,7 +2,7 @@
 
 **Readme in english is below**
 
-.deb пакет [far2l](https://github.com/elfmz/far2l) (linux порт [Far Manager 2](http://www.farmanager.com/index.php?l=ru)) для LTS версии Ubuntu (для Mint подходит тоже).
+.deb пакет [far2l](https://github.com/elfmz/far2l) (linux порт [Far Manager 2](http://www.farmanager.com/index.php?l=ru)) для Debian 11.
 
 Если вам нужен пакет для другого дистрибутива или архитектуры, можете попробовать собрать его самостоятельно, используя скрипт `make_far2l_deb.sh`.
 
@@ -21,7 +21,7 @@ themes — темы оформления интерфейса far2l
 
 ---
 
-.deb package of [far2l](https://github.com/elfmz/far2l) ([Far Manager 2](http://www.farmanager.com/index.php?l=en) linux port) for Ubuntu LTS (works on Mint also).
+.deb package of [far2l](https://github.com/elfmz/far2l) ([Far Manager 2](http://www.farmanager.com/index.php?l=en) linux port) for Debian11.
 
 If you need a package for different distro or architecture, you may try to build package yourself using `make_far2l_deb.sh`.
 
