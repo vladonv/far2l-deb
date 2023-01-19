@@ -1,5 +1,0 @@
-Just run
-
-lxc-far2l-portable.sh
-
-on Ubuntu 22.04 to build portable far2l standalone executable far2l_portable.run
