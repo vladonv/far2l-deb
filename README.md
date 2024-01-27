@@ -37,3 +37,4 @@ sudo dpkg -i PACKAGE_FOR_YOUR_DISTRO.deb
 https://launchpad.net/~far2l-team/+archive/ubuntu/ppa may have more recent builds as well as builds for other distros.
 
 themes - themes for far2l UI
+
